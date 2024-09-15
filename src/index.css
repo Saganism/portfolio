@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  body, html {
+    font-family: "Montserrat", sans-serif;
+    height: 150%;
+  }
+  body {
+    @apply bg-white text-black
+  }
+  h1 {
+    @apply text-3xl font-bold
+  }
+  h2 {
+    @apply text-2xl font-bold
+  }
+  p,span {
+    @apply sm:text-2xl text-lg
+  }
+}
+@tailwind components;
+@tailwind utilities;
