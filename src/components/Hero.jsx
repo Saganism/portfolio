@@ -14,8 +14,8 @@ const Hero = () => {
       </div>
       <p className="mt-8 mb-4">Web Developer | React JS</p>
       <div className="mb-4 flex gap-4 justify-center">
-      <FaLinkedin className="w-8 h-8 hover:fill-blue-600 cursor-pointer" />
-      <FaGithub className="w-8 h-8 hover:fill-red-500 cursor-pointer" />
+        <a href="https://www.linkedin.com/in/abdulazeez-alabbasi/"><FaLinkedin className="w-8 h-8 hover:fill-blue-600 cursor-pointer" /></a>
+        <a href="https://github.com/Saganism"><FaGithub className="w-8 h-8 hover:fill-red-500 cursor-pointer" /></a>
       </div>
       <p>
         Hi! My name is Abdulazeez Alabbasi. I am a web developer who enjoys
